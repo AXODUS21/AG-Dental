@@ -10,6 +10,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#BB9A34",
+        secondary: "#FEF3E2",
+      },
+      fontFamily: {
+        spartan: ["League Spartan", "Arial"],
       },
     },
   },
