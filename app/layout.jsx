@@ -1,4 +1,4 @@
-import Message from "@components/Message";
+
 import Nav from "@components/Nav";
 import "@styles/globals.css"
 
@@ -14,7 +14,7 @@ const RootLayout = ({children}) => {
             <main className="website">
                 <Nav/>
                 {children}
-                <Message/>
+                
             </main>
         </body>
     </html>

@@ -7,13 +7,13 @@ const Home = () => {
      "/assets/client/img-1.jpg",
      "/assets/client/img-2.jpg",
      "/assets/client/img-3.jpg",
-     "/assets/client/img-4.jpg",
-     "/assets/client/img-5.jpg",
+     "/assets/client/img-4.png",
   ];
 
   return (
     <div>
-      <div className="w-full">
+      <div className="w-full relative">
+        <img className='absolute z-10 h-60' src="/assets/HeaderNoBG.png" alt="header" />
         <Carousel autoSlide={false}>
           {slides.map((slide, i) => (
             <img key={slide} src={slide}></img>
