@@ -11,7 +11,7 @@ const About = () => {
   };
 
   return (
-    <div className="">
+    <div className="sm:pt-0 pt-[3px]">
       <Image
         src={"/assets/LogoNoBG.png"}
         height={1000}
@@ -20,7 +20,7 @@ const About = () => {
         className="fixed left-52 rotate-12 z-[-20] opacity-15"
       />
       <div className="relative flex items-center mb-20">
-        <h1 className="font-spartan sm:text-9xl text-7xl text-primary absolute_center z-10 font-bold stroke text-nowrap">
+        <h1 className="font-spartan sm:text-9xl text-7xl text-primary absolute_center z-10  stroke text-nowrap">
           ABOUT US
         </h1>
         <div className="flex">
@@ -89,7 +89,7 @@ const About = () => {
       </div>
 
       <div className="sm:flex items-center grid mb-20 p-10">
-        <div className="pr-10">
+        <div className="pr-10 mb-20">
           <h1 className="text_primary text-3xl">
             Where Beautiful Smiles Are Made.
           </h1>

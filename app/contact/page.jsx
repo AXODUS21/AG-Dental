@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div>
       <Image src={"/assets/LogoNoBG.png"} height={1000} width={1000} alt="logo" className='fixed left-52 rotate-12 z-[-20] opacity-15'/>
-      <h1 className="text-center font-spartan text-7xl text-primary p-10 font-semibold">
+      <h1 className="text-center font-spartan text-7xl text-primary p-10">
         Let's Meet!
       </h1>
       <div className="sm:grid-cols-3 grid w-full sm:px-20 px-2 gap-20 mb-20">

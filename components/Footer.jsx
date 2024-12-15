@@ -21,7 +21,10 @@ const Footer = () => {
           </div>
           <div className="pt-5 mb-10">
             <div className="socials mb-10">
-              <Link href="https://www.facebook.com/profile.php?id=61563081832171" target='_blank'>
+              <Link
+                href="https://www.facebook.com/profile.php?id=61563081832171"
+                target="_blank"
+              >
                 <img src="/assets/icons/facebook.png" alt="facebook" />
               </Link>
             </div>
@@ -41,23 +44,26 @@ const Footer = () => {
               <p>Tooth Filling</p>
               <p>Tooth Extraction</p>
               <p>Root Canal Therapy</p>
-              <p>Wisdom Tooth Removal</p>
-              <p>Apicoectomy</p>
-              <p>Gingivectomy</p>
-              <p>Teeth Whitening</p>
-              <p>Veneers</p>
-              <p>Gum Recontouring</p>
-              <p>Orthodontic Treatment {"(Braces)"}</p>
-              <p>Retainers</p>
-              <p>Removable Partial Dentures</p>
-              <p>Complete Dentures</p>
-              <p>Jacket Crowns & Fixed Bridge</p>
-              <p>Flouride Treatment</p>
-              <p>Pit & Fissure Sealant</p>
-              <p>Space Maintainers</p>
-              <p>Strip Off Crown</p>
-              <p>Mothguard / Nightguard</p>
-              <p>Periapical Xray</p>
+              <p className="sm:hidden block">And Many More...</p>
+              <p className="sm:block hidden">Wisdom Tooth Removal</p>
+              <p className="sm:block hidden">Apicoectomy</p>
+              <p className="sm:block hidden">Gingivectomy</p>
+              <p className="sm:block hidden">Teeth Whitening</p>
+              <p className="sm:block hidden">Veneers</p>
+              <p className="sm:block hidden">Gum Recontouring</p>
+              <p className="sm:block hidden">
+                Orthodontic Treatment {"(Braces)"}
+              </p>
+              <p className="sm:block hidden">Retainers</p>
+              <p className="sm:block hidden">Removable Partial Dentures</p>
+              <p className="sm:block hidden">Complete Dentures</p>
+              <p className="sm:block hidden">Jacket Crowns & Fixed Bridge</p>
+              <p className="sm:block hidden">Flouride Treatment</p>
+              <p className="sm:block hidden">Pit & Fissure Sealant</p>
+              <p className="sm:block hidden">Space Maintainers</p>
+              <p className="sm:block hidden">Strip Off Crown</p>
+              <p className="sm:block hidden">Mothguard / Nightguard</p>
+              <p className="sm:block hidden">Periapical Xray</p>
             </div>
           </div>
 
