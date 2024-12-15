@@ -20,7 +20,7 @@ const About = () => {
         className="fixed left-52 rotate-12 z-[-20] opacity-15"
       />
       <div className="relative flex items-center mb-20">
-        <h1 className="font-spartan sm:text-9xl text-7xl text-primary absolute_center z-10  stroke text-nowrap">
+        <h1 className="font-spartan sm:text-9xl text-7xl text-primary absolute_center z-10 stroke">
           ABOUT US
         </h1>
         <div className="flex">

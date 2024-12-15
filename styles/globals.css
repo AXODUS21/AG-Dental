@@ -18,7 +18,7 @@ body{
 
 .stroke{
   -webkit-text-stroke: black 1px;
-  text-wrap: nowrap !important;
+  white-space: nowrap;
 }
 
 .about-img{
