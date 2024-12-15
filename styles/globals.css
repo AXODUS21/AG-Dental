@@ -6,6 +6,7 @@
 body{
   background-color: #ffffff;
 }
+
 .text_primary {
   @apply text-primary font-spartan
 }
