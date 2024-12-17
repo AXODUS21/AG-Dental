@@ -14,7 +14,7 @@ const Home = () => {
     <div>
       <div className="w-full relative">
         <img className='absolute z-10 h-[20%]' src="/assets/HeaderNoBG.png" alt="header" />
-        <Carousel autoSlide={false}>
+        <Carousel autoSlide={true}>
           {slides.map((slide, i) => (
             <img key={slide} src={slide}></img>
           ))}
