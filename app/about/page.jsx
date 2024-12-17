@@ -60,7 +60,10 @@ const About = () => {
               patient feels valued, combining advanced dental care with a
               personal touch.
             </p>
-            <button onClick={scrollToServices} className="text_primary bg-secondary px-5 py-3 rounded-3xl">
+            <button
+              onClick={scrollToServices}
+              className="text_primary bg-secondary px-5 py-3 rounded-3xl"
+            >
               Our Services →
             </button>
           </div>
@@ -87,6 +90,8 @@ const About = () => {
           />
         </div>
       </div>
+
+      
 
       <div className="sm:flex items-center grid mb-20 p-10">
         <div className="pr-10 mb-20">
@@ -148,9 +153,9 @@ const About = () => {
       </div>
 
       <div ref={servicesRef}>
-          <h1 className="text-center text_primary text-4xl">
-            We Offer A Wide Range Of Dental Services
-          </h1>
+        <h1 className="text-center text_primary text-4xl">
+          We Offer A Wide Range Of Dental Services
+        </h1>
         <div className="grid sm:grid-cols-3 grid-cols-1 p-20 font-spartan">
           <div className="grid">
             <div className="mb-5">

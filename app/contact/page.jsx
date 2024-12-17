@@ -4,7 +4,13 @@ import Image from '@node_modules/next/image';
 const Contact = () => {
   return (
     <div>
-      <Image src={"/assets/LogoNoBG.png"} height={1000} width={1000} alt="logo" className='fixed left-52 rotate-12 z-[-20] opacity-15'/>
+      <Image
+        src={"/assets/LogoNoBG.png"}
+        height={1000}
+        width={1000}
+        alt="logo"
+        className="fixed left-52 rotate-12 z-[-20] opacity-15"
+      />
       <h1 className="text-center font-spartan text-7xl text-primary p-10">
         Let's Meet!
       </h1>
@@ -75,6 +81,17 @@ const Contact = () => {
             <p className="z-10">example@gmail.com</p>
           </div>
         </div>
+      </div>
+
+      <div className="display flex justify-center mb-20 ">
+        <iframe
+          className="border-primary border-2"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4785.9705229204665!2d121.44830556851828!3d13.930294014324357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd4988fd10e52d%3A0xb2f8caa5c5e797c5!2sAG%20DENTAL%20-%20CANDELARIA!5e0!3m2!1sen!2sph!4v1734429911715!5m2!1sen!2sph"
+          style={{ width: "70svw", height: "60svh" }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
 
       <Footer />
