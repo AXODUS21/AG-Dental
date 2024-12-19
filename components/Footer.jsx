@@ -72,7 +72,7 @@ const Footer = () => {
             <div className="grid">
               <Link href="/">Home</Link>
               <Link href="/about">About</Link>
-              <Link href="/appointment">Appointment</Link>
+              <Link href="/clients">Clients</Link>
               <Link href="/contact">Contacts</Link>
             </div>
           </div>

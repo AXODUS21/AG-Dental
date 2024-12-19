@@ -17,7 +17,7 @@ const Carousel = ({children: slides, autoSlide, autoSlideInterval = 6000}) => {
     }, [])
     
   return (
-    <div className="overflow-hidden relative">
+    <div className="overflow-hidden relative sm:h-[91.5svh] h-auto">
       <div className="flex transition-transform ease-in-out duration-500" style={{transform: `translateX(-${current * 100}%)`}}>{slides}</div>
       <div className="absolute inset-0 flex items-center justify-between p-4">
         <button onClick={prev} className="p-1 rounded-full shadow bg-gray-300 text-gray-800 hover:bg-white">

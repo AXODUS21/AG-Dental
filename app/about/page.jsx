@@ -4,12 +4,6 @@ import Image from '@node_modules/next/image'
 import Footer from '@components/Footer'
 
 const About = () => {
-  const servicesRef = useRef(null)
-
-  const scrollToServices = () => {
-    servicesRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <div className="sm:pt-0 pt-[3px]">
       <Image
@@ -61,7 +55,6 @@ const About = () => {
               personal touch.
             </p>
             <button
-              onClick={scrollToServices}
               className="text_primary bg-secondary px-5 py-3 rounded-3xl"
             >
               Our Services →
@@ -152,79 +145,7 @@ const About = () => {
         </div>
       </div>
 
-      <div ref={servicesRef}>
-        <h1 className="text-center text_primary text-4xl">
-          We Offer A Wide Range Of Dental Services
-        </h1>
-        <div className="grid sm:grid-cols-3 grid-cols-1 p-20 font-spartan">
-          <div className="grid">
-            <div className="mb-5">
-              <h1 className="text_primary text-2xl">General Services:</h1>
-              <ul className="list-disc pl-5">
-                <li>Dental Consultation</li>
-                <li>Oral Prophylaxis {"(Cleaning)"}</li>
-                <li>Cosmetic Restoration</li>
-                <li>Tooth Filling</li>
-                <li>Tooth Extraction</li>
-                <li>Root Canal Therapy</li>
-              </ul>
-            </div>
-            <div className="mb-5">
-              <h1 className="text_primary text-2xl">Oral Surgery:</h1>
-              <ul className="list-disc pl-5">
-                <li>Wisdom Tooth Removal</li>
-                <li>Apicoectomy</li>
-                <li>Gingivectomy</li>
-              </ul>
-            </div>
-          </div>
-          <div className="grid">
-            <div className="mb-5">
-              <h1 className="text_primary text-2xl">Cosmetic Dentistry:</h1>
-              <ul className="list-disc pl-5">
-                <li>Teeth Whitening</li>
-                <li>Veneers</li>
-                <li>Gum Recontouring</li>
-              </ul>
-            </div>
-            <div className="mb-5">
-              <h1 className="text_primary text-2xl">Orthodontics:</h1>
-              <ul className="list-disc pl-5">
-                <li>Orthodontic Treatment {"(Braces)"}</li>
-                <li>Retainers</li>
-              </ul>
-            </div>
-            <div className="mb-5">
-              <h1 className="text_primary text-2xl">Prosthodontics:</h1>
-              <ul className="list-disc pl-5">
-                <li>Removable Partial Dentures</li>
-                <li>Complete Dentures</li>
-                <li>Jacket Crowns & Fixed Bridge</li>
-              </ul>
-            </div>
-          </div>
-          <div className="grid">
-            <div className="mb-5">
-              <h1 className="text_primary text-2xl">Pediatric Dentistry:</h1>
-              <ul className="list-disc pl-5">
-                <li>Flouride Treatment</li>
-                <li>Pit & Fissure Sealant</li>
-                <li>Space Maintainers</li>
-                <li>Dental Extractions</li>
-                <li>Strip Off Crown</li>
-                <li>Dental Dentures</li>
-              </ul>
-            </div>
-            <div className="mb-5">
-              <h1 className="text_primary text-2xl">Other Services:</h1>
-              <ul className="list-disc pl-5">
-                <li>Mothguard / Nightguard</li>
-                <li>Periapical Xray</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       <Footer />
     </div>
